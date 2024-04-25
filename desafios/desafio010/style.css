@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal; 
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3CD781, #1A5C38);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+header > nav {
+    text-align: left;
+    font-weight: bold;
+}
+
+header > nav > p > a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+header > nav > p > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 45px;
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.308);
+    text-align: justify;
+  
+}
+
+section#historia > article > p {
+    text-indent: 30px;
+}
+
+h1#principal {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 2em;
+    text-shadow: 4px 2px 5px rgba(0, 0, 0, 0.493);
+}
+
+h1 {
+    font-family: 'android', times, serif;
+    color: #4B7E62;
+    font-size: 1.5em;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #4b7e623b, white);
+    font-family: 'android', times, serif;
+    font-size: 1em;
+    color: #4B7E62;
+    padding: 0px 5px;
+
+}
+
+div.iframe-container {
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 45px;
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.308);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aprender {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 45px;
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.308);
+    border-radius: 0px 0px 8px 8px;
+}
+
+a {
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section#aprender > article > p {
+    padding: 5px;
+    
+}
+
+section#aprender > article{
+    background-color: #11683841;
+    border-radius: 7px;
+}
+
+section#aprender > article > h1 {
+    background-color: #2FA866;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    padding: 0px 5px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+section#aprender > article > p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+section#aprender nav > ul > li > a {
+    text-decoration: underline;
+    color: black;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 3px;
+    margin: 15px;
+}
+
+span {
+    font-weight: bold;
+}

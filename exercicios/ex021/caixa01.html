@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de Caixas</title>
+    <style>
+        h1 { /*Box-level*/
+            border-color: lightgrey;
+            height: 250px;
+            width: 250px;
+
+            border: 10px solid darkslategray;
+
+            padding: 10px;
+
+            margin: 20px 20px 40px 20px;
+
+            outline: 5px solid rgb(168, 79, 44);
+        }
+
+        a { /*Inline-level*/
+            border: 5px solid red;
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemlo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links sáo exemplos de caixa inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
