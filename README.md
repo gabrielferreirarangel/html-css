@@ -5,4 +5,4 @@
 
  <a href="https://gabrielferreirarangel.github.io/html-css/desafios/desafio010/index.html">Executar o dasafio 010
 
- <a href="https://gabrielferreirarangel.github.io/html-css/desafios/desafio010-original/index.html">Executar o dasafio 010 original
+ <a href="https://gabrielferreirarangel.github.io/html-css/desafios/desafio10-original/index.html">Executar o dasafio 010 original
